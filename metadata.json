@@ -1,0 +1,6 @@
+{
+  "name": "SafarSetu",
+  "description": "Premium India-wide travel information, bus/train/flight booking, hotel reservations, food delivery, and secure UPI merchant payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
