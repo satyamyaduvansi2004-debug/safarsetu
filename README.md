@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SafarSetu
 
-# Run and deploy your AI Studio app
+SafarSetu is an all-in-one travel and booking platform for India.
 
-This contains everything you need to run your app locally.
+## Services
+- Hotel Booking
+- Bus Booking
+- Train Information
+- Flight Booking
+- Online Food Delivery
+- Travel Information
 
-View your app in AI Studio: https://ai.studio/apps/92723e84-8cbe-4c10-bab1-99524c43d57c
+## Contact
+Phone: 9835474866
+Email: satyamyaduvansi2004@gmail.com
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Head Office
+Lalganj, Vaishali, Bihar, India
