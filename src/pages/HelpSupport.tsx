@@ -19,7 +19,7 @@ export default function HelpSupport() {
       category: 'Travel & Booking',
       icon: <Compass className="w-5 h-5 text-blue-700" />,
       q: 'How do I obtain the confirmed Bus, Train, or Flight tickets?',
-      a: 'Once you choose your routes, register details and pay securely using the PhonePe QR code scanner or Credit Card on our Payment Page, our representative will verify the transaction within 15 minutes and email/WhatsApp your official tickets.'
+      a: 'Once you choose your routes, register details and pay securely using the UPI Transfer or Credit Card on our Payment Page, our representative will verify the transaction within 15 minutes and email/WhatsApp your official tickets.'
     },
     {
       category: 'Travel & Booking',
@@ -31,13 +31,13 @@ export default function HelpSupport() {
       category: 'Food Delivery',
       icon: <Utensils className="w-5 h-5 text-orange-600" />,
       q: 'Is Cash on Delivery (COD) supported for food ordering?',
-      a: 'Absolutely! SafarSetu supports Cash on Delivery (COD) on all local food deliveries from Lalganj, Hajipur and nearby locations, beside pre-paid UPI scanning option.'
+      a: 'Absolutely! SafarSetu supports Cash on Delivery (COD) on all local food deliveries from Lalganj, Hajipur and nearby locations, beside pre-paid UPI transaction option.'
     },
     {
       category: 'Payments & Scanner',
       icon: <CreditCard className="w-5 h-5 text-emerald-600" />,
-      q: 'Is scanning the PhonePe UPI QR safe?',
-      a: 'Yes! SafarSetu features a transparent PhonePe QR scan link backed strictly under proprietor Satyam Kumar. There are zero hidden gateway surcharges. Scan and pay from any UPI app (PhonePe, GPay, Paytm, BHIM).'
+      q: 'Is the UPI Payment system secure?',
+      a: 'Yes! SafarSetu features a transparent and verified UPI transfer portal mapped directly to our proprietor Satyam Kumar. There are zero hidden gateway surcharges. Simply copy our UPI ID or pay directly from any UPI app (PhonePe, GPay, Paytm, BHIM).'
     },
     {
       category: 'Refunds & Cancellations',

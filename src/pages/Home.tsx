@@ -225,45 +225,42 @@ export default function Home({ onNavigate }: HomeProps) {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* 5. SECURE UPI PHONEPE GATEWAY BANNER */}
+          {/* 5. SECURE UPI GATEWAY BANNER */}
         <div className="bg-gradient-to-r from-neutral-950 to-neutral-900 text-white rounded-3xl p-6 md:p-10 border border-neutral-800 shadow-xl flex flex-col lg:flex-row justify-between items-center gap-8 relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-violet-700/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl"></div>
           
           <div className="space-y-4 max-w-lg text-center lg:text-left">
             <div className="flex justify-center lg:justify-start items-center gap-2">
-              <span className="px-3 py-1 bg-violet-900/40 text-violet-400 border border-violet-800 text-[10px] uppercase font-black tracking-widest rounded-full">
+              <span className="px-3 py-1 bg-orange-950/40 text-orange-400 border border-orange-800 text-[10px] uppercase font-black tracking-widest rounded-full">
                 SafarSetu Billing
               </span>
             </div>
             
-            <h3 className="text-xl md:text-2xl font-black font-sans text-neutral-100">
-              One-Click Scan &amp; Pay Securely via UPI
+            <h3 className="text-xl md:text-2xl font-black font-sans text-neutral-100 uppercase">
+              Secure Direct Payments via UPI
             </h3>
             
             <p className="text-slate-400 text-xs leading-relaxed">
-              Scan the PhonePe Acceptor QR scanner in the Payment portal. All bookings automatically update in our local core registers immediately after UTR reference code checks.
+              Pay using our official UPI ID <span className="font-mono text-orange-400 font-bold">satyamyaduvansi2004@okicici</span>. Fast, verified, and direct transfers to proprietor Satyam Kumar with instant reservation unlocks.
             </p>
 
             <button
               onClick={() => onNavigate('payment')}
-              className="bg-violet-700 hover:bg-violet-800 text-white font-extrabold text-xs py-3 px-6 rounded-xl transition shadow"
+              className="bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-xs py-3 px-6 rounded-full transition shadow-sm border-none cursor-pointer uppercase tracking-wider"
             >
               VISIT DEDICATED PAYMENT PAGE →
             </button>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center flex-shrink-0 w-68 md:w-72">
-            <span className="text-[10px] font-bold text-violet-400 uppercase tracking-widest">PhonePe Acceptor</span>
-            <div className="bg-white p-3 rounded-xl mt-3 flex items-center justify-center">
-              {/* Very tiny QR code visual symbol */}
-              <div className="w-24 h-24 bg-neutral-900 rounded flex items-center justify-center text-white text-[10px]">
-                [ SCAN UPI ]
-              </div>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-5 flex flex-col items-center flex-shrink-0 w-68 md:w-72">
+            <span className="text-[10px] font-bold text-orange-400 uppercase tracking-widest mb-1.5">Verified Payee</span>
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10 w-full text-center space-y-1">
+              <p className="text-sm font-black text-white">Satyam Kumar</p>
+              <p className="text-xs font-mono text-slate-400">satyamyaduvansi2004@okicici</p>
             </div>
-            <p className="text-[10px] text-slate-300 mt-2 font-bold font-sans">Satyam Kumar Verified Acc</p>
+            <p className="text-[10px] text-slate-400 mt-3 font-semibold font-sans">SafarSetu Official Merchant Terminal</p>
           </div>
+        </div>
         </div>
 
         {/* 6. FEATURED RESTAURANTS */}

@@ -101,7 +101,7 @@ export default function AboutUs() {
                 At SafarSetu, our mission is to simplify India-wide travels for every common man, family, and religious tourist. By launching transparent pricing for direct bus reservations to Lalganj & Hajipur, train route inquiries, real-time airline search, and hot food deliveries from reliable local kitchens, we ensure stress-free trips. 
               </p>
               <p className="text-xs md:text-sm">
-                We have linked our direct official <b>PhonePe Merchant QR Code</b> scanner—authorized under Satyam Kumar—throughout the system to prevent fake gateway charges and maintain trust. Scan securely, pay with pride, and set off on your next journey.
+                We have linked our direct official <b>UPI Transfer system</b>—authorized under Satyam Kumar—throughout the system to prevent fake gateway charges and maintain trust. Pay securely, verify with pride, and set off on your next journey.
               </p>
             </div>
           </div>

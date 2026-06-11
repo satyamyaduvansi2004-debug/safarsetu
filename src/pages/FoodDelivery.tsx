@@ -88,7 +88,7 @@ export default function FoodDelivery({ onNavigateToPayment }: FoodDeliveryProps)
       deliveryCharge,
       grandTotal,
       status: paymentOption === 'UPI' ? 'Pending Payment' : 'Cooking',
-      paymentMethod: paymentOption === 'UPI' ? 'PhonePe QR scanner' : 'Cash on Delivery',
+      paymentMethod: paymentOption === 'UPI' ? 'Direct UPI Transfer' : 'Cash on Delivery',
       orderDate: new Date().toISOString().split('T')[0]
     };
 
@@ -107,7 +107,7 @@ export default function FoodDelivery({ onNavigateToPayment }: FoodDeliveryProps)
         customerPhone,
         customerEmail,
         amount: grandTotal,
-        paymentMethod: 'PhonePe QR scanner'
+        paymentMethod: 'Direct UPI Transfer'
       };
       localStorage.setItem('safarsetu_pending_booking', JSON.stringify(pendingBooking));
       setCart([]);

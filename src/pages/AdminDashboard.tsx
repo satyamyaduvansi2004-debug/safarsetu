@@ -52,7 +52,7 @@ export default function AdminDashboard() {
   const [restImage, setRestImage] = useState('');
   const [restFeatured, setRestFeatured] = useState(false);
 
-  // QR UPI Scanner Settings Fields
+  // UPI Merchant Settings Fields
   const [upiName, setUpiName] = useState(settings.upiName);
   const [upiPhone, setUpiPhone] = useState(settings.upiPhonePeNumber);
 
@@ -280,7 +280,7 @@ export default function AdminDashboard() {
 
     setSettings(updatedSettings);
     saveSettings(updatedSettings);
-    alert('SafarSetu PhonePe UPI Merchant QR scanner updated successfully!');
+    alert('SafarSetu UPI Merchant settings updated successfully!');
   };
 
   return (
@@ -359,10 +359,10 @@ export default function AdminDashboard() {
 
             <button
               onClick={() => setActiveTab('settings')}
-              className={`w-full text-left p-3 rounded-xl text-xs font-bold transition flex items-center gap-2.5 ${activeTab === 'settings' ? 'bg-blue-700 text-white shadow' : 'text-slate-700 hover:bg-slate-50'}`}
+              className={`w-full text-left p-3 rounded-xl text-xs font-bold transition flex items-center gap-2.5 ${activeTab === 'settings' ? 'bg-blue-750 text-white shadow' : 'text-slate-700 hover:bg-slate-50'}`}
             >
               <CreditCard className="w-4.5 h-4.5" />
-              <span>💳 PhonePe UPI QR Config</span>
+              <span>💳 UPI Merchant Config</span>
             </button>
           </div>
 
@@ -694,12 +694,12 @@ export default function AdminDashboard() {
               </div>
             )}
 
-            {/* TAB 6: PHONEPE PI SCANNER SETTINGS */}
+            {/* TAB 6: UPI MERCHANT SETTINGS */}
             {activeTab === 'settings' && (
               <form onSubmit={handleSaveUpiSettings} className="space-y-6 animate-fade-in">
                 <div>
-                  <h2 className="text-xl font-bold text-slate-900">QR Merchant Account Settings</h2>
-                  <p className="text-slate-550 text-xs">Modify the default merchant details rendering on PhonePe vectors and checkout fields throughout SafarSetu.</p>
+                  <h2 className="text-xl font-bold text-slate-900">UPI Merchant Account Settings</h2>
+                  <p className="text-slate-550 text-xs">Modify the default merchant details rendering on payment views and checkout fields throughout SafarSetu.</p>
                 </div>
 
                 <div className="space-y-4 max-w-sm">
@@ -729,14 +729,14 @@ export default function AdminDashboard() {
 
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 text-xs text-slate-500 space-y-1.5">
                     <p className="font-bold text-slate-700">📌 Verification Note:</p>
-                    <p>Updating these values adapts the vector visual checkout automatically, ensuring funds always scan under your primary UPI identity safely.</p>
+                    <p>Updating these values adapts the visual checkout automatically, ensuring funds always transfer under your primary UPI identity safely.</p>
                   </div>
 
                   <button
                     type="submit"
                     className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-xl text-xs uppercase tracking-wide transition shadow-md w-full"
                   >
-                    Save QR Configurations
+                    Save UPI Configurations
                   </button>
                 </div>
               </form>

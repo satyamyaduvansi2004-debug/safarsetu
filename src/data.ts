@@ -465,7 +465,7 @@ export const DEFAULT_REVIEWS = [
     name: 'Anjali Sharma',
     city: 'Mumbai, Maharashtra',
     rating: 5,
-    comment: 'I booked a 3-night stay atKumarakom Backwater Resort through SafarSetu. The payment via PhonePe QR scanner was fluid. Highly professional travel aggregator for India!',
+    comment: 'I booked a 3-night stay at Kumarakom Backwater Resort through SafarSetu. The payment via UPI Transfer was fluid. Highly professional travel aggregator for India!',
     date: '1 month ago'
   },
   {
